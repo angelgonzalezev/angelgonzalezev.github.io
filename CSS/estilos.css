@@ -102,8 +102,47 @@ h1, h2, h3, h4, h5, h6{
     max-width: 100%;
 }
 
-
-
+.journey{
+    margin: 0;
+    padding: 20px;
+}
+.experience{
+    margin: 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.experience-details{
+    width: 50%;
+    text-align: left;
+}
+.experience-imageContainer{
+    width: 50%;
+}
+.experience-imageContainer img{
+    max-width: 100%;
+}
+.experience-name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+.experience-position{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    color: green;
+    margin: 0;
+}
+.experience-city{
+    font-weight: bold;
+    margin: 0;
+    color: #50555C;
+}
 
 
 .footer{
