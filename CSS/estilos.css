@@ -2,6 +2,13 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;  
 }
+h1, h2, h3, h4, h5, h6{
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+
 .header{
     color: white;
     display: flex;
@@ -25,6 +32,42 @@ body{
     padding: 0 10px;
     color: black;
     font-weight: bold;
-    text-decoration: none;
-    
+    text-decoration: none; 
+}
+
+.hero{
+    background: cadetblue;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 600;
+}
+.hero h1{
+    text-align: center;
+}
+.hero p{
+    text-align: center;
+}
+.hero-text{
+    color:black;
+    background-color: burlywood;
+}
+.hero-image{
+    background: darkorange;
+    object-fit: cover;
+}
+
+
+
+
+
+
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: black;
 }
