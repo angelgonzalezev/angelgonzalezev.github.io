@@ -12,101 +12,122 @@
 
     <body>
         <header class="header">
-            <figure>
-                <img class="logo" src="images/logo.png" height="70" alt="Logo de Angel Gonzalez">
-            </figure>
-            <nav class="menu">
-                <ol>
-                    <li>
-                        <a class="link" href="#proyectos">Proyectos</a>
-                    </li>
-                    <li>
-                        <a class="link" href="#experiencia">Experiencia</a>
-                    </li>
-                    <li>
-                        <a class="link" href="#contacto">Contacto</a>
-                    </li>
-                </ol>
-            </nav>
+            <div class="container">
+                <figure>
+                    <img class="logo" src="images/logo.png" height="70" alt="Logo de Angel Gonzalez">
+                </figure>
+                <nav class="menu">
+                    <ol>
+                        <li>
+                            <a class="link" href="#proyectos">Proyectos</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#experiencia">Experiencia</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#contacto">Contacto</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
         </header>
         <section class="hero">
-            <div class="hero-text">
-                <h1>
-                    Hey! Soy <br><strong>Ángel González</strong><br>
-                </h1>
-                <p> { Mechatronic Engineer / Software / Geek Inside }</p>
+            <div class="container">
+                <div class="hero-text">
+                    <h1>
+                        Hey! Soy <br><strong>Ángel González</strong><br>
+                    </h1>
+                    <p> { Mechatronic Engineer / Software / Geek Inside }</p>
+                </div>
+                <figure class="hero-image">
+                    <img src="images/perfilAngel.png" width="400" height="400" alt="">
+                </figure>
             </div>
-            <figure class="hero-image">
-                <img src="images/perfil.png" alt="">
-            </figure>
         </section>
 
         <section id="proyectos" class="portfolio">
-            <h2>Proyectos</h2>
-            <article class="project">
-                <div class="project-details">
-                    <h3 class="project-title">Nesting</h3>
-                    <h4 class="project-position">Co-founder / CTO</h4>
-                    <p class="project-url" ><small><strong>Pudes verlo en: </strong>www.nesting.site</small></p>
-                    <p class="project-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-                        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                        software like Aldus PageMaker including versions of Lorem Ipsum
-                    </p>
-                </div>
-                <figure class="project-imageContainer">
-                    <img class="project-image" src="images/platzi-video-react-native.png" alt="">
-                </figure>
-            </article>
+            <div class="container">
+                <h2>Proyectos</h2>
+            </div>
+            <div class="container">
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Nesting</h3>
+                        <h4 class="project-position">Co-founder / CTO</h4>
+                        <p class="project-url" >
+                            <small>
+                                <strong>Pudes verlo en: </strong>
+                                <a href="https://www.nesting.site">www.nesting.site</a> 
+                            </small>
+                        </p>
+                        <p class="project-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                            software like Aldus PageMaker including versions of Lorem Ipsum
+                        </p>
+                    </div>
+                    <figure class="project-imageContainer">
+                        <img class="project-image" src="images/platzi-video-react-native.png" alt="">
+                    </figure>
+                </article>
+            </div>
         </section>
 
         <section id="experiencia" class="journey">
-            <h2>Mi viaje</h2>
-            <article class="experience">
-                <figure class="experience-imageContainer">
-                    <img class="experience-image" src="images/logo-avanade.png" width="300px" height="300px" alt="logotipo avanade">
-                </figure>
-                <div class="experience-details">
-                    <h3 class="experience-name">Avanade</h3>
-                    <h4 class="experience-position">Analyst, Software Engineer</h4>
-                    <p class="experience-city">Málaga</p>
-                    <p class="experience-description">Desarrollo Web y Consultoría de Software. <br>
-                        Fui parte del equipo de desarrollo web con tecnología .NET. <br>
-                        Trabajé apoyando varios proyectos en funcionamiento y desarrollando nuevos proyectos basados en<br>
-                        entornos .NET, administré las bases de datos con SQL y asistí a los requerimientos del cliente. <br><br>
-                        
-                        Responsabilidades/tareas diarias:<br>
-                        - Resolver cuestiones técnicas.<br>
-                        - Análisis de la especificación de los requisitos. <br>
-                        - Diseño e implementación de código. <br>
-                        - Depurar errores de programación. <br>
-                        - Escribir documentación, diagramas de diseño. <br><br>
-                        
-                        Resultados de las acciones anteriores: <br>
-                        - Buen conocimiento de la gestión de datos. <br>
-                        - Experiencia en el trabajo con un equipo internacional. <br><br>
-                        
-                        Entorno técnico: <br>
-                        Microsoft Studio, ASP.NET, C#, SQL, PL/SQL, JavaScript, CSS, HTML, Microsoft Team, Visual Basic 6, LINQ, API REST, Windows Form.
-                    </p>
-                </div>
-            </article>
+            <div class="container">
+                <h2>Mi viaje</h2>
+            </div>
+            <div class="container2">
+                <article class="experience">
+                    <figure class="experience-imageContainer">
+                        <img class="experience-image" src="images/logo-avanade.png" width="200px" height="200px" alt="logotipo avanade">
+                    </figure>
+                    <div class="experience-details">
+                        <h3 class="experience-name">Avanade</h3>
+                        <h4 class="experience-position">Analyst, Software Engineer</h4>
+                        <p class="experience-city">Málaga</p>
+                        <p class="experience-description">Desarrollo Web y Consultoría de Software. <br>
+                            Fui parte del equipo de desarrollo web con tecnología .NET. <br>
+                            Trabajé apoyando varios proyectos en funcionamiento y desarrollando nuevos proyectos basados en<br>
+                            entornos .NET, administré las bases de datos con SQL y asistí a los requerimientos del cliente. <br><br>
+                            
+                            Responsabilidades/tareas diarias:<br>
+                            - Resolver cuestiones técnicas.<br>
+                            - Análisis de la especificación de los requisitos. <br>
+                            - Diseño e implementación de código. <br>
+                            - Depurar errores de programación. <br>
+                            - Escribir documentación, diagramas de diseño. <br><br>
+                            
+                            Resultados de las acciones anteriores: <br>
+                            - Buen conocimiento de la gestión de datos. <br>
+                            - Experiencia en el trabajo con un equipo internacional. <br><br>
+                            
+                            Entorno técnico: <br>
+                            Microsoft Studio, ASP.NET, C#, SQL, PL/SQL, JavaScript, CSS, HTML, Microsoft Team, Visual Basic 6, LINQ, API REST, Windows Form.
+                        </p>
+                    </div>
+                </article>
+            </div>
         </section>
-        <section class="contact">
-            <h2>Contáctame en Likedin o Twitter</h2>
-            <div class="social">
-                <a href="https://twitter.com/angelgonzalezev" class="social-link twitter" target="_blank"></a>
-                <a href="https://instagram.com/angelgonzalezev" class="social-link instagram" target="_blank"></a>
-                <a href="https://linkedin.com/in/angelgonzalezev" class="social-link linkedin" target="_blank"></a>
-                <a href="https://github.com/angelgonzalezev" class="social-link github" target="_blank"></a>
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2>Contáctame en Likedin o Twitter</h2>
+                <div class="social">
+                    <a href="https://twitter.com/angelgonzalezev" class="social-link twitter" target="_blank"></a>
+                    <a href="https://instagram.com/angelgonzalezev" class="social-link instagram" target="_blank"></a>
+                    <a href="https://linkedin.com/in/angelgonzalezev" class="social-link linkedin" target="_blank"></a>
+                    <a href="https://github.com/angelgonzalezev" class="social-link github" target="_blank"></a>
+                </div>
             </div>
         </section>
         <footer  class="footer">
-            <div>
-                <p>2020. Desarrollo Web</p>
-            </div>
-            <div>
-                <p>Diseñado con amor por <a href="https://twitter.com/angelgonzalezev" target="_blank">@AngelGonzalez</a></p>
+            <div class="container">
+                <div>
+                    <p>2020. Desarrollo Web</p>
+                </div>
+                <div>
+                    <p>Diseñado con amor por <a href="https://twitter.com/angelgonzalezev" target="_blank">@AngelGonzalez</a></p>
+                </div>
             </div>
             
         </footer>
