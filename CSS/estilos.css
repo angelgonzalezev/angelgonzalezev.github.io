@@ -1,0 +1,30 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;  
+}
+.header{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    border: 1px solid red;
+}
+.header ol{
+    display: flex;
+}
+.header ol li{
+    height: inherit;
+    list-style: none;
+}
+.header a, header a:link, header a:visited, header a:active{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
