@@ -466,5 +466,17 @@ h1 strong{
         text-align: center;
         display: block;
     }
+    .hero-image{
+        width: 100%;
+    }
+    .hero p{
+        font-size: .55em;
+        font-weight: bold;
+    }
+    .hero-image img{
+        width: 10em;
+        height: auto;
+    }
+
     
 }
