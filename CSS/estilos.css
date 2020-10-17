@@ -1,0 +1,225 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;  
+}
+h1, h2, h3, h4, h5, h6{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+
+.header{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    /* border: 1px solid red; */
+}
+.header ol{
+    display: flex;
+}
+.header ol li{
+    height: inherit;
+    list-style: none;
+}
+.header a, header a:link, header a:visited, header a:active{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+.hero{
+    /* background: cadetblue; */
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 480px;
+}
+.hero h1{
+    text-align: center;
+}
+.hero p{
+    text-align: center;
+}
+.hero-text{
+    color:black;
+    /* background-color: burlywood; */
+}
+.hero-image{
+    /* background: darkorange; */
+    object-fit: cover;
+}
+
+.portfolio{
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+.project{
+    background-color: white;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.project-title{
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.project-position{
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    margin: 10px 0 ;
+}
+.project-url{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.project-url a{
+    text-decoration: none;
+    color: black;
+}
+.proyect-description{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.project-details{
+    width: 50%;
+}
+.project-imageContainer{
+    width: 50%;
+}
+.project-imageContainer img{
+    max-width: 100%;
+}
+
+.journey{
+    margin: 0;
+    padding: 20px;
+}
+.experience{
+    margin: 0;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    padding: 20px;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+}
+.experience-details{
+    width: 50%;
+    text-align: left;
+}
+.experience-imageContainer{
+    width: 50%;
+    margin: 0;
+}
+.experience-imageContainer img{
+    max-width: 100%;
+}
+.experience-name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+.experience-position{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    color: green;
+    margin: 0;
+}
+.experience-city{
+    font-weight: bold;
+    margin: 10px 0 0 0;
+    color: #50555C;
+    font-size: 12px;
+}
+.experience-description{
+    font-size: 12px;
+}
+
+.contact{
+    height: 150px;
+    text-align: center;
+    padding: 20px 0 20px;
+    margin: 0;
+
+}
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+.social-link.twitter{
+    background-image: url(../images/twitter.svg);
+    background-size:50px 50px;
+}
+.social-link.facebook{
+    background-image: url(../images/facebook.svg);
+    background-size:50px 50px;
+}
+.social-link.github{
+    background-image: url(../images/github.svg);
+    background-size:50px 50px;
+}
+.social-link.instagram{
+    background-image: url(../images/instagram.svg);
+    background-size:50px 50px;
+}
+.social-link.linkedin{
+    color: white;
+    background-image: url(../images/linkedin.svg);
+    background-size:50px 50px;
+}
+
+
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: black;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 1000px;
+    flex: 1;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    flex-wrap: inherit;
+    margin: 0 auto;
+    height: inherit;
+}
+.container2{
+    max-width: 800px;
+    flex: 1;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    flex-wrap: inherit;
+    margin: 0 auto;
+    height: inherit;
+}
