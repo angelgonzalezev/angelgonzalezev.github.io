@@ -44,9 +44,8 @@
         text-align: center; */
     position: fixed;
     z-index: 4;
-    left: 5px;
-    top: 5px;
-
+    left: 10px;
+    top: 10px;
     color: white; /*El icono es una fuente*/
 }
 
@@ -322,7 +321,9 @@ h1 strong{
     .project-imageContainer img{
         position: relative;
         padding-top: 1.5em;
-        
+    }
+    .container{
+        padding: 0 1em;
     }
     
 
@@ -351,6 +352,32 @@ h1 strong{
     }
     .menu.is-active{
         left: 0;
+    }
+    .header ol{
+        display: block;
+    }
+    .header ol li{
+        height: 50px;
+        text-align: center;
+    }
+    .header a{
+        justify-content: center;
+        height: 40px;
+        font-size: 2em;
+        text-decoration: underline;
+        margin-bottom: .5px;
+    }
+
+    .logo-imageContainer{
+        width: 100%;
+        text-align: center;
+    }
+    .logo-imageContainer img{
+        width: 100px;
+        height: auto;
+    }
+    .hero, .hero-text{
+        padding-top: 0;
     }
     .project{
         display: block;
@@ -419,10 +446,25 @@ h1 strong{
         font-weight: bold;
         text-align: center;
     }
+
+    .contact h2{
+        font-size: 1.2em;
+    }
     .journey h2{
         margin:20px 0 0;
     }
 }
 @media screen and (max-width:320px){
+
+    .contact h2{
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .contact{
+        height: auto;
+        text-align: center;
+        display: block;
+    }
     
 }
