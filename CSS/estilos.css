@@ -7,7 +7,15 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
 }
-
+h1{
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px; /*Un 20% menos de un pixel*/
+    margin: 0;  
+}
+h1 strong{
+    color: #026fff;
+}
 
 .header{
     color: white;
@@ -52,6 +60,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .hero-text{
     color:black;
+    padding: 20px;
     /* background-color: burlywood; */
 }
 .hero-image{
@@ -93,9 +102,9 @@ h1, h2, h3, h4, h5, h6{
     text-decoration: none;
     color: black;
 }
-.proyect-description{
+.project-description{
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 .project-details{
     width: 50%;
@@ -222,4 +231,74 @@ h1, h2, h3, h4, h5, h6{
     flex-wrap: inherit;
     margin: 0 auto;
     height: inherit;
+}
+
+@media screen and (max-width:1023px){
+    .hero{
+        height: auto;
+        background-color: red;
+        padding: 2em;
+        overflow: hidden;
+    }
+    h1{
+        font-size: 2em;
+    }
+    .hero-image{
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .hero-image img{
+        height: 20em;
+        width: auto;
+    }
+    .hero-text{
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:767px){
+    .project{
+        display: block;
+    }
+    .project-imageContainer{
+        width: auto;
+        text-align: center;
+    }
+    .project-details{
+        width: auto;
+        /* font-size: 16px ; */
+    }
+    .project-position, .project-url{
+        margin: .3em, 0;
+    }
+    .project-title{
+        font-size: 1.5em;
+        margin-bottom: .3em;
+
+    }
+    .project-url{
+        font-size: 1em;
+    }
+    .project-description{
+        font-size: .8em;
+    }
+    .experience{
+        width: auto;
+        flex-shrink: initial;
+        
+    }
+    .experience img{
+        width: auto;
+        text-align: center;
+    }
+
+}
+@media screen and (max-width:480px){
+
+}
+@media screen and (max-width:320px){
+
 }
