@@ -114,6 +114,8 @@ h1 strong{
 }
 .hero p{
     text-align: center;
+    font-weight: bold;
+
 }
 .hero-text{
     color:black;
@@ -379,6 +381,10 @@ h1 strong{
     .hero, .hero-text{
         padding-top: 0;
     }
+    .hero p{
+        font-weight: bold;
+
+    }
     .project{
         display: block;
     }
@@ -425,8 +431,15 @@ h1 strong{
     h1{
         font-size: 1.5em;
     }
+    .hero-image{
+        width: 100%;
+    }
     .hero-text{
         padding: 0;
+    }
+    .hero p{
+        font-size: .8em;
+        font-weight: bold;
     }
     .experience{
         display: block;
@@ -454,6 +467,25 @@ h1 strong{
         margin:20px 0 0;
     }
 }
+@media screen and (max-width:400px){
+    /* .hero p{
+        font-size: .50em;
+        font-weight: bold;
+    }
+    .hero-image img{
+        width: 10em;
+        height: auto;
+    } */
+    .hero p{
+        font-size: .6em;
+        font-weight: bold;
+    }
+    .hero-image img{
+        width: 10em;
+        height: auto;
+    }
+
+} 
 @media screen and (max-width:320px){
 
     .contact h2{
@@ -466,9 +498,7 @@ h1 strong{
         text-align: center;
         display: block;
     }
-    .hero-image{
-        width: 100%;
-    }
+    
     .hero p{
         font-size: .55em;
         font-weight: bold;
