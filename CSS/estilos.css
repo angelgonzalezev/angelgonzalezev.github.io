@@ -170,9 +170,12 @@ h1 strong{
 }
 .project-imageContainer{
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 .project-imageContainer img{
     max-width: 100%;
+    width: 350px;
 }
 
 .journey{
@@ -254,7 +257,36 @@ h1 strong{
 .social-link.linkedin{
     color: white;
     background-image: url(../images/linkedin.svg);
+    
     background-size:50px 50px;
+}
+.skills {
+    background-color: whitesmoke;
+    padding: 20px 20px 40px;
+    text-align: center;
+}
+h2.skills-title {
+    color: black;
+    margin: 20px 0;
+}
+.skills-icons {
+    font-size: 40px;
+    color: lightgray;
+}
+.skills-ux {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
 }
 
 
